@@ -4,6 +4,41 @@
     {
       "changes": [
         {
+          "type": "fix",
+          "sha": "0b7209ac1f38aa4005d619249a6f93f44aef7ca7",
+          "message": "enable java-bigqueryconnect ITSystemTest",
+          "issues": [
+            "9089"
+          ]
+        }
+      ],
+      "version": "1.5.0",
+      "language": "JAVA",
+      "artifactName": "com.google.cloud:google-cloud-bigqueryconnection",
+      "id": "e95d12b6-9f2f-435c-8463-6e5eb086a55a",
+      "createTime": "2023-02-09T16:35:52.364Z"
+    },
+    {
+      "changes": [
+        {
+          "type": "feat",
+          "sha": "935443d917998991dc6af62bd594091164017117",
+          "message": "[documentai] Added EvaluationReference to evaluation.proto",
+          "issues": [
+            "9085"
+          ],
+          "breakingChangeNote": "The TrainProcessorVersion parent was incorrectly annotated."
+        }
+      ],
+      "version": "1.5.0",
+      "language": "JAVA",
+      "artifactName": "com.google.cloud:google-cloud-document-ai",
+      "id": "5a92bd33-c32e-43e3-8a41-32334a029da0",
+      "createTime": "2023-02-09T16:35:52.363Z"
+    },
+    {
+      "changes": [
+        {
           "type": "docs",
           "sha": "2c1bd383046e895f30a4c720ebbef7a7c78c9e0c",
           "message": "[dialogflow] Reformat some comments and documentation",
@@ -276,5 +311,5 @@
       "createTime": "2023-02-03T16:27:23.198Z"
     }
   ],
-  "updateTime": "2023-02-03T16:27:23.199Z"
+  "updateTime": "2023-02-09T16:35:52.364Z"
 }

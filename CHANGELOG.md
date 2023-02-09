@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.5.0](https://github.com/googleapis/google-cloud-java/compare/v1.4.0...v1.5.0) (2023-02-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* The TrainProcessorVersion parent was incorrectly annotated.
+
+### Features
+
+* [documentai] Added EvaluationReference to evaluation.proto ([#9085](https://github.com/googleapis/google-cloud-java/issues/9085)) ([935443d](https://github.com/googleapis/google-cloud-java/commit/935443d917998991dc6af62bd594091164017117))
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.cloud:grpc-gcp to v1.4.1 ([#9059](https://github.com/googleapis/google-cloud-java/issues/9059)) ([78d0522](https://github.com/googleapis/google-cloud-java/commit/78d05227d7b910aa0a514c1aef05a0b5fa1cbad9))
+* enable java-bigqueryconnect ITSystemTest ([#9089](https://github.com/googleapis/google-cloud-java/issues/9089)) ([0b7209a](https://github.com/googleapis/google-cloud-java/commit/0b7209ac1f38aa4005d619249a6f93f44aef7ca7))
+
 ## [1.4.0](https://github.com/googleapis/google-cloud-java/compare/v1.3.0...v1.4.0) (2023-02-03)
 
 
